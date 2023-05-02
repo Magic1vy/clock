@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS + CSS Clock</title>
+    <link rel="icon" href="https://fav.farm/🔥" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main>
+        <span class="loader"></span>
+    <section class="clock">
+        <div class="clock-face">
+        <div class="hand hour-hand"></div>
+        <div class="hand min-hand"></div>
+        <div class="hand second-hand"></div>
+        </div>
+    </section>
+    <section class="digital-clock">
+        <div class="digit hour-1">0</div>
+        <div class="digit hour-2">0</div>
+        <div class="digit separator">:</div>
+        <div class="digit minute-1">0</div>
+        <div class="digit minute-2">0</div>
+        <div class="digit separator">:</div>
+        <div class="digit second-1">0</div>
+        <div class="digit second-2">0</div>
+    </section>
+    </main>
+    <footer>
+    <span class="date"></span>
+        <label class="toggle-switch">
+            <input id="toggle" type="checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
